@@ -9,21 +9,21 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: 'Développement Frontend',
-    description: 'Création d\'interfaces utilisateur interactives et réactives en utilisant les dernières technologies frontend comme React.js.',
+    title: 'Frontend Development',
+    description: 'Creating interactive and responsive user interfaces using the latest frontend technologies like React.js.',
     icon: <FaLaptopCode />
   },
   {
-    title: 'Développement Backend',
-    description: 'Construction d\'API robustes et évolutives en utilisant des frameworks backend modernes comme Node.js et Express.js.',
+    title: 'Backend Development',
+    description: 'Building robust and scalable APIs using modern backend frameworks like Node.js and Express.js.',
     icon: <FaServer />
   },
   {
-    title: 'Base de Données',
-    description: 'Utilisation de bases de données relationnelles et non relationnelles comme MySQL, MongoDB pour stocker et gérer les données.',
+    title: 'Database Management',
+    description: 'Using relational and non-relational databases like MySQL, MongoDB to store and manage data.',
     icon: <FaDatabase />
   },
-  // Ajoutez d'autres services ici...
+  // Add more services here...
 ];
 
 const Service: FC = () => {
@@ -32,10 +32,10 @@ const Service: FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Mes Services en tant que Développeur Fullstack
+            My Services as a Fullstack Developer
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Je propose une gamme complète de services de développement pour répondre à vos besoins.
+            I offer a comprehensive range of development services to meet your needs.
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
